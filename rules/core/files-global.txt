@@ -340,7 +340,6 @@ _468x60_
 /*&sw=/sw-check-permissions.js^$third-party
 /adobe-analytics-$domain=~business.adobe.com
 .js?id=gtm-$script
-/ads/bid*.aspx^$subdocument
 /submenu/*/&oaid=$popup,document
 /discourse-adplugin-$script
 /300x250-$image
