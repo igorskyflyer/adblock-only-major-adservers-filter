@@ -1,1 +1,2 @@
 /related_1.html?$subdocument,third-party
+/www/delivery/*$subdocument
