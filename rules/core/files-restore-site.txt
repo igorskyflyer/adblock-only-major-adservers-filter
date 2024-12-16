@@ -9,3 +9,4 @@
 @@||player.filmoton.net/ad/top/popunder.js^
 @@/*.airlytics.*.js^$script,domain=weather.com
 @@||redditstatic.com/*/report*.js^
+@@||redditstatic.com/shreddit/en-US/ads-carousel-$script
