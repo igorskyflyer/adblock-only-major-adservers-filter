@@ -1,0 +1,1 @@
+||sxyprn.$subdocument,third-party,domain=~google.com|~googleapis.com|~gstatic.com|~hcaptcha.com|~recaptcha.net
