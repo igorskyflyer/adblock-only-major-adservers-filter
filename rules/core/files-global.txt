@@ -304,7 +304,6 @@ _468x60_
 /ppms.js^$script
 /b/ss/*&aqe=$image,redirect-rule=1x1.gif
 /mts-wp-in-post-ads/*$script,stylesheet,image
-/related_1.html?$subdocument,third-party
 /stats.gif?$image
 -universal-analytics/$script,stylesheet
 /cdn-cgi/zaraz/*
