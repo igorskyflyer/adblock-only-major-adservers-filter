@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Addon.NoAnnoyances
 ! Description: Blocks site annoyances like cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, app install banners, countdowns, etc.
-! Version: 2.0.1054
-! Last modified: 2024-12-16T21:01:30.989+01:00
+! Version: 2.0.1055
+! Last modified: 2024-12-16T21:04:18.728+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 1094
@@ -65,7 +65,6 @@
 ||cdn.larapush.com^$third-party
 ||cdn.privacy-mgmt.com^$third-party
 ||cmp.setupcmp.com^
-||consent.dropbox.com^$subdocument
 ||consent.radiotimes.com^
 ||consent.trustarc.com^
 ||gn-flagpoles.api.bbci.co.uk^
@@ -77,17 +76,20 @@
 ||widget.justwatch.com^
 ||widget.objektiv.rs^
 
-! {@2} Endpoints (global)
+! {@2} Subdomains - frames (site)
+||consent.dropbox.com^$subdocument
+
+! {@3} Endpoints (global)
 /cookies-await-consent^
 
-! {@3} Endpoints (site)
+! {@4} Endpoints (site)
 ||onet.pl^*/tags?
 ||securiti.ai/consent/
 
-! {@4} AJAX paths (site)
+! {@5} AJAX paths (site)
 ||reddit.com/svc/shreddit/experiences?names=app_selector$xmlhttprequest
 
-! {@5} Files (global)
+! {@6} Files (global)
 .cookielaw.js^$script
 .cookielaw.min.$script,stylesheet,image
 .cookienotice.$script,stylesheet,image
@@ -176,7 +178,7 @@
 amp-web-push*js^$script
 cookie-law*.$script,stylesheet
 
-! {@6} Files (site)
+! {@7} Files (site)
 ||a.mailmunch.co/app/$script,third-party
 ||amazfitwatchfaces.com/assets/plugins/growl/jquery.growl.js^$script
 ||anyclip.com^$third-party,domain=~click2houston.com|~clickondetroit.com|~clickorlando.com|~dictionary.com|~heute.at|~ksat.com|~news4jax.com|~video.timeout.com|~wsls.com
@@ -195,7 +197,7 @@ cookie-law*.$script,stylesheet
 ||ssstik.io/js/micromodal.min.js^$script
 ||swiftypecdn.com^$third-party,domain=~swiftype.com
 
-! {@7} Cosmetic (global)
+! {@8} Cosmetic (global)
 ###__cookie-consent
 ###__cookie-consent-wrapper
 ###_evidon_banner
@@ -746,7 +748,7 @@ cookie-law*.$script,stylesheet
 ##sibbo-cmp-layout
 ##ung-anonymous-consent-management
 
-! {@8} Global (site)
+! {@9} Global (site)
 alfafile.net##[href^="https://play.google.com/store/apps/details"]
 ananas.rs###__next > div:nth-last-child(-n+2)
 apkmody.fun###body-fixed-footer
@@ -919,7 +921,7 @@ youtube.com##.ytp-paid-content-overlay
 youtube.com##.ytp-suggested-action > button.ytp-suggested-action-badge
 youtube.com##ytd-statement-banner-renderer
 
-! {@9} Restore cosmetic (site)
+! {@10} Restore cosmetic (site)
 apkmody.io#@##body-fixed-footer
 devonstank.com#@#[class*="-cookie-banner"]
 paypal.com#@#[class*="CookieBanner"]
@@ -928,7 +930,7 @@ xvideos.*#@##disclaimer-cookies
 xvideos.*#@##disclaimer_background
 xvideos.*#@##disclaimer_message
 
-! {@10} Scriptlets (site)
+! {@11} Scriptlets (site)
 accounts.google.com##+js(set-local-storage-item, wf-promo-1::d, 1)
 accuweather.com##+js(remove-attr, style, .cnx-content-wrapper.cnx-float-transition)
 accuweather.com##+js(remove-class, cnx-float, .cnx-content-wrapper.cnx-float)
