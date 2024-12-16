@@ -46,6 +46,11 @@ include './rules/common/subdomains-wildcard.txt' sort
 
 nl
 
+tag 'Subdomains - frames (site)'
+include './rules/add-ons/no-annoyances/frames-subdomains.txt' sort
+
+nl
+
 tag 'Endpoints (global)'
 include './rules/core/endpoints-global.txt' sort
 
