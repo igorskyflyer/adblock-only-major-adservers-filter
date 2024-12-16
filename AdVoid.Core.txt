@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3004
-! Last modified: 2024-12-16T20:56:17.321+01:00
+! Version: 3.0.3005
+! Last modified: 2024-12-16T20:56:50.336+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5319
@@ -1327,7 +1327,6 @@
 ||nessainy.net^
 ||nestledmph.com^
 ||nethebravero.com^
-||netvisiteurs.com^$subdocument
 ||newrelic.com^$third-party
 ||news-muheji.com^
 ||news-wicuji.cc^
@@ -2317,6 +2316,7 @@
 
 ! {@2} Domains - frames (global)
 ||mnuu.nu^$subdocument
+||netvisiteurs.com^$subdocument
 
 ! {@3} Domains - RegExp (global)
 /^(?:ak\.)?[a-z]{6,12}\.(?:com|net)\/4\/\d{7}/$document,popup,subdocument
