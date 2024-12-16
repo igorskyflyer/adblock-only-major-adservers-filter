@@ -16,6 +16,7 @@ include './rules/common/domains.txt' sort
 include './rules/add-ons/no-annoyances/domains.txt' sort
 include './rules/add-ons/no-externals/domains.txt' sort
 include './rules/add-ons/no-extras/domains.txt' sort
+include './rules/common/frames-domains.txt' sort
 
 nl
 
