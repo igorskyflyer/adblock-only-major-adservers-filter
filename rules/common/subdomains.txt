@@ -229,7 +229,6 @@
 ||d192r5l88wrng7.cloudfront.net^
 ||svibeacon.onezapp.com^
 ||log.videocampaign.co^
-||log.r2b2.io^
 ||logs.roku.com^
 ||ads.roku.com^
 ||tracking.scenepass.com^
