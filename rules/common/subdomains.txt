@@ -453,4 +453,3 @@
 ||cws.conviva.com^
 ||cdn-test.mouseflow.com^
 ||tools.mouseflow.com^
-||o2.mouseflow.com^
