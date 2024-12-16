@@ -2,7 +2,6 @@
 ||widget.objektiv.rs^
 ||assets.klicktipp.com^
 ||consent.trustarc.com^
-||consent.dropbox.com^$subdocument
 ||cmp.setupcmp.com^
 ||widget.clutch.co^$third-party
 ||gn-flagpoles.api.bbci.co.uk^
