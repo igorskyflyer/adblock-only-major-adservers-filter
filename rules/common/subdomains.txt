@@ -86,7 +86,6 @@
 ||stats.pusher.com^
 ||adtarget.com.tr^
 ||whos.amung.us^
-||js-agent.newrelic.com^
 ||dumpster.cam4.com^
 ||collector.xhamster.com^
 ||hubt.pornhub.com^
