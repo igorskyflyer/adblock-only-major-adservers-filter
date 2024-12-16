@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4232
-! Last modified: 2024-12-16T20:57:23.427+01:00
+! Version: 3.0.4233
+! Last modified: 2024-12-16T20:57:45.265+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7126
@@ -3698,7 +3698,6 @@ sassy-social-share-public*.$script,stylesheet
 ||google.com/adsense/search/ads.js^$script
 ||google.com/adsense/search/async-ads.js^$script
 ||google.com/images/cleardot.gif^$image
-||google.com^*/fastbutton?$subdocument,third-party
 ||googletagmanager.com/gtag/js$script,redirect-rule=googletagmanager_gtm.js:5
 ||googletagmanager.com/gtm.js^$script,redirect=googletagmanager_gtm.js:5
 ||googletagservices.com/tag/js/gpt.js^$script,xmlhttprequest,redirect=googletagservices_gpt.js
@@ -3801,6 +3800,7 @@ sassy-social-share-public*.$script,stylesheet
 ||yastatic.net/share2/share.js^$script
 ||youtube.com/subscribe_embed?$third-party
 ||zdassets.com/ekr/snippet.js^$script
+||google.com^*/fastbutton?$subdocument,third-party
 ||mp3y.info/*.php^$subdocument
 
 ! {@13} Files (site) - RegExp
