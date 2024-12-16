@@ -90,6 +90,7 @@ include './rules/core/files-site.txt' sort
 include './rules/add-ons/no-annoyances/files-site.txt' sort
 include './rules/add-ons/no-extras/files-site.txt' sort
 include './rules/add-ons/no-externals/files-site.txt' sort
+include './rules/common/frames-files.txt' sort
 
 nl
 
