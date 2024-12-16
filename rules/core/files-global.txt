@@ -333,7 +333,6 @@ _468x60_
 /cdn-cgi/apps/head/*$script,~third-party
 /delivery/avw.php^
 /shopifycloud/shopify/assets/shop_events_listener-$script
-/web-pixel-shopify-custom-pixel@$subdocument
 /ia-sentry.min.js^$script
 /code/native.js?h=$script
 /house-ads/*$image
