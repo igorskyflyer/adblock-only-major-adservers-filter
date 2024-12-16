@@ -1918,7 +1918,6 @@
 ||flagcounter.com^$third-party
 ||ssm.codes^$third-party
 ||adserver.mk^
-||netvisiteurs.com^$subdocument
 ||ammankeyan.com^
 ||permutive.app^
 ||googleoptimize.com^
