@@ -1,17 +1,10 @@
 [Adblock Plus 2.0]
 !
-!     ___        __   _    __        _      __
-!    /   |  ____/ /  | |  / /____   (_)____/ /
-!   / /| | / __  /   | | / // __ \ / // __  /
-!  / ___ |/ /_/ /    | |/ // /_/ // // /_/ /
-! /_/  |_|\__,_/     |___/ \____//_/ \__,_/
-!
-!
 ! {@!}
 ! Title: AdVoid.Scriptlets.AntiAntiAdBlock
 ! Description: Infiltrates and then destroys common anti-adblock techniques. 💥
-! Version: 1.0.27
-! Last modified: 2024-07-07T15:21:34.313+02:00
+! Version: 1.0.28
+! Last modified: 2024-12-16T19:50:51.038+01:00
 ! Expires: 96 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 43
@@ -24,55 +17,55 @@
 ! Source: World Wide Web
 
 ! {@0} Hijack these primitives
-##+js(set, hasAdBlocker, false)
-##+js(set, abp, false)
-##+js(set-constant, adBlockerReady, false)
-##+js(set-constant, isBlocked, false)
-##+js(set-constant, adblockcheck, false)
-##+js(set-constant, sadbl, false)
+*##+js(set, hasAdBlocker, false)
+*##+js(set, abp, false)
+*##+js(set-constant, adBlockerReady, false)
+*##+js(set-constant, isBlocked, false)
+*##+js(set-constant, adblockcheck, false)
+*##+js(set-constant, sadbl, false)
 
-##+js(set, isLoadAds, true)
-##+js(set, generatorAds, true)
-##+js(set, googleAd, true)
-##+js(set, zfgloadedpopup, true)
-##+js(set, canRunAds, true)
-##+js(set, canRunAdvertise, true)
-##+js(set, isAdEnabled, true)
-##+js(set-constant, _ads, true)
-##+js(set-constant, pubappended, true)
+*##+js(set, isLoadAds, true)
+*##+js(set, generatorAds, true)
+*##+js(set, googleAd, true)
+*##+js(set, zfgloadedpopup, true)
+*##+js(set, canRunAds, true)
+*##+js(set, canRunAdvertise, true)
+*##+js(set, isAdEnabled, true)
+*##+js(set-constant, _ads, true)
+*##+js(set-constant, pubappended, true)
 
-##+js(set, google_ad_status, 1)
-##+js(set-constant, pop_cdn, 1)
+*##+js(set, google_ad_status, 1)
+*##+js(set-constant, pop_cdn, 1)
 
-##+js(set-constant, popns, '')
+*##+js(set-constant, popns, '')
 
 ! {@1} Hijack these objects
-##+js(set, dotcom, { flags: { adverts: 1, analytics: 1 }, userinfo: { ads: 1 }, initAnalytics: function() {} })
-##+js(set, zarazData, {})
-##+js(set, zaraz, { track: function() {} })
-##+js(set, demandSupply, { pfAds: true, setPfAds: function() {} })
-##+js(set, AdTrack, { init: function() {} })
-##+js(set, _carbonads, { init: function() {} })
-##+js(set, MDCore, { adblock: 0 })
-##+js(set, adsconfig, {})
-##+js(set, ez_ad_units, { push: function() {} })
-##+js(set, __ez, {})
-##+js(set, adnitroInpageOptions, {})
-##+js(set, _pb, { libLoaded: true })
-##+js(set, __cfRLUnblockHandlers, {})
-##+js(set, Matomo, { initialized: true })
-##+js(set, Piwik, { initialized: true })
+*##+js(set, dotcom, { flags: { adverts: 1, analytics: 1 }, userinfo: { ads: 1 }, initAnalytics: function() {} })
+*##+js(set, zarazData, {})
+*##+js(set, zaraz, { track: function() {} })
+*##+js(set, demandSupply, { pfAds: true, setPfAds: function() {} })
+*##+js(set, AdTrack, { init: function() {} })
+*##+js(set, _carbonads, { init: function() {} })
+*##+js(set, MDCore, { adblock: 0 })
+*##+js(set, adsconfig, {})
+*##+js(set, ez_ad_units, { push: function() {} })
+*##+js(set, __ez, {})
+*##+js(set, adnitroInpageOptions, {})
+*##+js(set, _pb, { libLoaded: true })
+*##+js(set, __cfRLUnblockHandlers, {})
+*##+js(set, Matomo, { initialized: true })
+*##+js(set, Piwik, { initialized: true })
 
 ! {@2} Hijack these functions
-##+js(set, GeneratorAds, function() {})
-##+js(set, Ads_PushPage, function() {})
-##+js(set, Ads_Popunder, function() {})
-##+js(set, Ads_Vignette, function() {})
-##+js(set, AdsPlugin, function() {})
-##+js(set, AdscoreInit, function() {})
-##+js(set, GalaBanner, function() {})
-##+js(set-constant, admiral, noopFunc)
+*##+js(set, GeneratorAds, function() {})
+*##+js(set, Ads_PushPage, function() {})
+*##+js(set, Ads_Popunder, function() {})
+*##+js(set, Ads_Vignette, function() {})
+*##+js(set, AdsPlugin, function() {})
+*##+js(set, AdscoreInit, function() {})
+*##+js(set, GalaBanner, function() {})
+*##+js(set-constant, admiral, noopFunc)
 
 ! {@3} Hijack using advanced functions
-##+js(acs, eval, ignielAdBlock)
-##+js(abort-current-script, adver)
+*##+js(acs, eval, ignielAdBlock)
+*##+js(abort-current-script, adver)
