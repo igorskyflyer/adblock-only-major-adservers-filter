@@ -1,2 +1,2 @@
-##+js(acs, eval, ignielAdBlock)
-##+js(abort-current-script, adver)
+*##+js(acs, eval, ignielAdBlock)
+*##+js(abort-current-script, adver)
