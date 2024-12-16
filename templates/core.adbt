@@ -21,6 +21,11 @@ include './rules/common/domains-wildcard.txt' sort
 
 nl
 
+tag 'Domains - frames (global)'
+include './rules/common/frames-domains.txt' sort
+
+nl
+
 tag 'Domains - RegExp (global)'
 include './rules/common/domains-regex.txt' sort
 
