@@ -74,7 +74,6 @@
 ||pardot.com/pd.js^$script
 ||dailymotion.com/logger/$image
 ||www.techpowerup.com/reviyuu/$image,domain=www.techpowerup.com
-||mp3y.info/*.php^$subdocument
 ||shopify.com/shopifycloud/consent-tracking-api/
 ||nofraud.com/js/device.js^$script
 ||attn.tv^*/dtag.js^$script
