@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Core
 ! Description: ✈ AdVoid is an efficient AdBlock filter that blocks ads, trackers, malware and a lot more if you want it to! 👾
-! Version: 3.0.3005
-! Last modified: 2024-12-16T20:56:50.336+01:00
+! Version: 3.0.3006
+! Last modified: 2024-12-16T20:57:37.664+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 5319
@@ -3461,7 +3461,6 @@ trekkie*.js^$script
 ||google.com/adsense/search/ads.js^$script
 ||google.com/adsense/search/async-ads.js^$script
 ||google.com/images/cleardot.gif^$image
-||google.com^*/fastbutton?$subdocument,third-party
 ||googletagmanager.com/gtag/js$script,redirect-rule=googletagmanager_gtm.js:5
 ||googletagmanager.com/gtm.js^$script,redirect=googletagmanager_gtm.js:5
 ||googletagservices.com/tag/js/gpt.js^$script,xmlhttprequest,redirect=googletagservices_gpt.js
@@ -3535,6 +3534,7 @@ trekkie*.js^$script
 ||ytmp3.cc/js/inner.js^$script
 
 ! {@15} Files - frames (site)
+||google.com^*/fastbutton?$subdocument,third-party
 ||mp3y.info/*.php^$subdocument
 
 ! {@16} Files (site) - RegExp
