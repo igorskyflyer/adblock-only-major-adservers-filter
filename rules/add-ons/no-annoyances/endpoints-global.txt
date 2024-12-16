@@ -1,2 +1,1 @@
 /cookies-await-consent^
-/related_1.html?language=$subdocument
