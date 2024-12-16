@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4235
-! Last modified: 2024-12-16T20:59:15.596+01:00
+! Version: 3.0.4236
+! Last modified: 2024-12-16T20:59:53.875+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7126
@@ -3479,7 +3479,6 @@ _beacon?
 /vidoomy-player.js^$script
 /vortex-simple-*.js^$script
 /web-pixel-shopify-app-pixel@$script,stylesheet,image
-/web-pixel-shopify-custom-pixel@$subdocument
 /web-vitals.$script
 /wp-content/plugins/wp-ad-guru/*$script,stylesheet
 /wp2leads/*/*.js^$script
@@ -3655,6 +3654,7 @@ cookie-law*.$script,stylesheet
 /wrappermessagingwithoutdetection.js^$script
 sassy-social-share-public*.$script,stylesheet
 /related_1.html?$subdocument,third-party
+/web-pixel-shopify-custom-pixel@$subdocument
 /www/delivery/*$subdocument
 
 ! {@12} Files (site)
