@@ -1,1 +1,2 @@
 ||consent.dropbox.com^$subdocument
+||sasomange.rs/widget1.sasomange.rs$subdocument
