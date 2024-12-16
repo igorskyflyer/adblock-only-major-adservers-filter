@@ -24,6 +24,6 @@
 		]
 	},
 	"devDependencies": {
-		"@adguard/aglint": "^2.1.1"
+		"@adguard/aglint": "^2.1.2"
 	}
 }
