@@ -1,2 +1,3 @@
 ||mp3y.info/*.php^$subdocument
 ||google.com^*/fastbutton?$subdocument,third-party
+||xnxx.army/click/$subdocument
