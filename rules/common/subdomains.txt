@@ -452,4 +452,3 @@
 ||insitez.blob.core.windows.net^
 ||cws.conviva.com^
 ||cdn-test.mouseflow.com^
-||tools.mouseflow.com^
