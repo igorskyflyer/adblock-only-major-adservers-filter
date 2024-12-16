@@ -333,7 +333,6 @@
 ||rtb-*.xgroovy.com^
 ||cnt.xhamster.com^
 ||io.narrative.io^$third-party
-||aboutads.quantcast.com^
 ||asg.justthegays.com^
 ||events.devcycle.com^
 ||webtrack.chd01.com^
