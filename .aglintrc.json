@@ -17,6 +17,7 @@
 		"no-short-rules": "error",
 		"single-selector": "error",
 		"unknown-hints-and-platforms": "error",
-		"unknown-preprocessor-directives": "error"
+		"unknown-preprocessor-directives": "error",
+		"no-invalid-css-syntax": "error"
 	}
 }
