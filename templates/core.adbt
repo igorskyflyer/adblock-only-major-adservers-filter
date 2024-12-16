@@ -81,6 +81,11 @@ include './rules/core/files-site.txt' sort
 
 nl
 
+tag 'Files - frames (site)'
+include './rules/common/frames-files.txt' sort
+
+nl
+
 tag 'Files (site) - RegExp'
 include './rules/core/files-site-regex.txt' sort
 
