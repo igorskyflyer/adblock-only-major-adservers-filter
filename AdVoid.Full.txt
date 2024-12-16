@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.Full
 ! Description: Blocks major ad-servers, trackers, malware, fake download links, cookie-consent banners, popups, modals, push notifications, survey, newsletter and subscribe popups, sharing, Google Chromecast, popup chats, post widgets, like widgets, comments, service workers, news widgets, JavaScript and CSS maps, PWA install banners, Webmanifests, SWF objects
-! Version: 3.0.4231
-! Last modified: 2024-12-16T20:56:26.422+01:00
+! Version: 3.0.4232
+! Last modified: 2024-12-16T20:57:23.427+01:00
 ! Expires: 24 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 7126
@@ -1327,7 +1327,6 @@
 ||nessainy.net^
 ||nestledmph.com^
 ||nethebravero.com^
-||netvisiteurs.com^$subdocument
 ||newrelic.com^$third-party
 ||news-muheji.com^
 ||news-wicuji.cc^
@@ -2363,6 +2362,7 @@
 ||workerz1.com^
 ||zworker11.me^
 ||mnuu.nu^$subdocument
+||netvisiteurs.com^$subdocument
 
 ! {@1} Domains - wildcard (global)
 -pglstatp.com^
