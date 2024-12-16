@@ -3,8 +3,8 @@
 ! {@!}
 ! Title: AdVoid.DNS
 ! Description: Blocks ads and trackers from ad servers
-! Version: 3.0.1105
-! Last modified: 2024-12-16T20:57:42.721+01:00
+! Version: 3.0.1106
+! Last modified: 2024-12-16T21:09:40.673+01:00
 ! Expires: 12 hours (update frequency)
 ! Homepage: https://github.com/the-advoid/ad-void
 ! Entries: 2814
@@ -2761,6 +2761,7 @@
 ||d3u598arehftfk.cloudfront.net^
 ||insitez.blob.core.windows.net^
 ||cws.conviva.com^
+||cdn-test.mouseflow.com^
 
 ! {@3} Subdomains - wildcard (global)
 -amp-error-reporting.cloudfunctions.net^
@@ -2833,7 +2834,6 @@ telemetry.officeapps.live.com^
 ||m.facebook.com/ajax/weblite_load_logging/
 ||videosection.com/adv-agent.php^
 ||vimeocdn.com/add/player-stats^
-||sasomange.rs/widget1.sasomange.rs
 ||developer.mozilla.org/submit/
 ||goodreads.com/report_metric
 ||hello.myfonts.net/count/
